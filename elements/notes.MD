@@ -36,3 +36,11 @@ bd-tabs
   </nav>
 </div>
 
+
+fa-solid:info-circle
+
+fa-solid:check-square
+
+fa-solid:exclamation-triangle
+
+fa-soild:ban
