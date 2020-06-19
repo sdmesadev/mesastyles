@@ -44,3 +44,7 @@ fa-solid:check-square
 fa-solid:exclamation-triangle
 
 fa-soild:ban
+
+
+<span class="iconify" data-icon="mdi:home"></span>
+          
