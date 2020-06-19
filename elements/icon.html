@@ -1376,7 +1376,21 @@
   });
 </script>
 
-<script src="./box_files/clipboard-1.7.1.min.js"></script>
+<script src="./box_files/clipboard.js"></script>
+
+<script>
+const btns = document.querySelectorAll('bd-copy');
+const clipboard = new ClipboardJS(btns);
+
+clipboard.on('success', function (e) {
+  console.log('saved', e);
+});
+
+clipboard.on('error', function (e) {
+  console.log('didn not save', e);
+});
+
+</script>
 
 <script src="./box_files/main.js"></script>
 
