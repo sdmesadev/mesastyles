@@ -7,12 +7,16 @@
     "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d ./"
   },
   "author": "Marcus Mayorga",
   "license": "MIT",
+  "homepage": "https://sdmesadev.github.io/mesastyles/",
   "devDependencies": {
     "bulma": "^0.9.0",
     "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
