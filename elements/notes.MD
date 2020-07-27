@@ -10,8 +10,13 @@ bd-typo
 
 bd-tabs
 
+bd-snippet-code highlight-full bd-is-more bd-is-more-clipped
 
+remove b
 
+bd-snippet-code highlight-full bd-is-more
+
+//replace bd-lead
 
 <div class="bd-breadcrumb">
   <nav class="breadcrumb" aria-label="breadcrumbs">
